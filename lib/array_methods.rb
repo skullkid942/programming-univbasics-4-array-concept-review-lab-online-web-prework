@@ -18,7 +18,7 @@ def find_max_value(scale_2)
 end
 
 def find_min_value(scale_2)
-  sorted_scale_2.sort
+  sorted_scale_2 = scale_2.sort
   min = sorted_scale_2.first 
   p min 
 end
