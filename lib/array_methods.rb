@@ -12,13 +12,13 @@ def find_element_index(array,value_to_find)
 end
 
 def find_max_value(scale_2)
-  scale_2.sort
-  max = scale_2.last 
+  sorted_scale_2 = scale_2.sort
+  max = sorted_scale_2.last 
   p max
 end
 
 def find_min_value(scale_2)
-  scale_2.sort
-  min = scale_2.first 
+  sorted_scale_2.sort
+  min = sorted_scale_2.first 
   p min 
 end
